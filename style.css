@@ -1,0 +1,17 @@
+.jumbotron {
+  padding-top: 2rem 1rem;
+  background-color: #eaeaea;
+}
+
+body {
+  min-height: auto;
+}
+
+section {
+  padding-top: 3rem;
+}
+
+footer {
+  margin-top: 3rem;
+  padding: 2rem;
+}
