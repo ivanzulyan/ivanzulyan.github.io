@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- BOOTSTRAP CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+
+    <!-- BOOTSTRAP ICONS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+
+    <!-- MY CSS -->
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Portfolio | Ivan Zulyan</title>
+  </head>
+  <body id="home">
+    <!-- NAVBAR START-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-tertiary shadow sm">
+      <div class="container">
+        <a class="navbar-brand" href="#">Ivan Zulyan</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#gallery">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- NAVBAR END -->
+
+    <!-- JUMBOTRON START-->
+    <section id="jumbotron" class="jumbotron text-center">
+        <img src="img/fotoProfile.jpg" alt="Ivan Zulyan" width="200" class="rounded-circle img-thumbnail">
+      <h1 class="display-4">I'm Ivan Zulyan Pratama</h1>
+      <p class="lead">Mahasiswa | Informatika</p>
+    <!-- JUMBOTRON END-->
+
+    <!-- ABOUT START -->
+    <section id="about">
+        <div class="container">
+            <div class="row text-center mb-3 pt-3">
+                <div class="col">
+                    <h2>About Me</h2>
+                </div>
+            </div>
+            <div class="row justify-content-center fs-5 text-center">
+                <div class="col-md-4 mb-4">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident quas placeat accusamus aspernatur minus repudiandae recusandae cumque iusto veniam in!</p>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum id ducimus dolore labore in, minima et itaque mollitia modi quae. Pariatur deserunt ex ratione corrupti.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ABOUT END -->
+
+    <!-- GALLERY START -->
+    <section id="gallery">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h2>My Gallery</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 mb-3">
+                    <div class="card">
+                        <img src="gallery/gallery1.jpg" class="card-img-top" alt="Gallery1">
+                        <div class="card-body">
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <div class="card">
+                        <img src="gallery/gallery2.jpg" class="card-img-top" alt="Gallery1">
+                        <div class="card-body">
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <div class="card">
+                        <img src="gallery/gallery3.jpg" class="card-img-top" alt="Gallery1">
+                        <div class="card-body">
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- GALLERY END -->
+
+    <!-- CONTACT START -->
+    <section id="contact">
+        <div class="container">
+            <div class="row md-4 mb-3 mt-3">
+                <div class="col">
+                    <h2>Contact Me</h2>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-md-6">
+                    <form  action="https://formspree.io/f/xwkdwvke"
+                    method="POST">
+                        <div class="mb-3 text-start">
+                          <label for="Name" class="form-label">Nama Lengkap</label>
+                          <input type="text" name="name" class="form-control" id="name" aria-describedby="name">
+                        </div>
+                        <div class="mb-3 text-start">
+                            <label for="exampleInputEmail1" class="form-label">Email</label>
+                            <input type="email" name="email" class="form-control" id="email" aria-describedby="email">
+                          </div>
+                          <div class="mb-3 text-start">
+                            <label for="pesan" class="form-label">Pesan</label>
+                            <textarea class="form-control" name="pesan" id="pesan" rows="3"></textarea>
+                          </div>
+                        <button type="submit" class="btn btn-primary">Kirim</button>
+                      </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- AKHIR CONTACT -->
+
+    <!-- FOOTER START -->
+    <footer class="footer-content bg-dark text-white text-center">
+        <p>Created by <a href="https://www.instagram.com/ivanzlyan/" class="text-white fw-bold">Ivanzlyan</a></p>
+    </footer>
+    <!-- FOOTER END -->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+      integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
