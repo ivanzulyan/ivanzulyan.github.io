@@ -192,14 +192,6 @@ html {
   font-weight: 380;
 }
 
-.container-about .row-about .content-about a {
-  margin-bottom: 0.8rem;
-  font-size: 1.2rem;
-  font-weight: 600;
-  color: #ffc836;
-  text-decoration: none;
-}
-
 /* SECTION EDUCATION */
 .container-education {
   padding: 5rem 7% 1.4rem;
